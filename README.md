@@ -26,8 +26,7 @@ This Python-based simulation runs on Kali Linux and models the interaction of mo
 ## Running the Simulation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/orchardlinc/ad-hoc-simulation.git
-   cd ad-hoc-simulation
+   git clone https://github.com/orchardlinc/AdHocBlockchain.git
    ```
 
 2. Install dependencies:
