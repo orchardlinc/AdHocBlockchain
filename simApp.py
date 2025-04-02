@@ -66,7 +66,7 @@ def check_transactions() -> None:
                           f"(Wallet: {network.nodes[j].wallet.wallet_id})")
 
 
-def animate() -> None:
+def animate(frame) -> None:
     global initial_positions, network, transactions, transaction_timestamps, witness_timestamps
     global ax, fig, sc
 
