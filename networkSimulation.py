@@ -64,7 +64,7 @@ def check_transactions() -> None:
                           f"(Wallet: {network.nodes[j].wallet.wallet_id})")
 
 
-def select_witnesses(node_one, node_two):
+def select_witnesses(node_one: int, node_two: int) -> list:
     global initial_positions, network
 
     selected_witnesses = []
