@@ -35,7 +35,7 @@ This Python-based simulation runs on Kali Linux and models the interaction of mo
 
 3. Run the simulation:
    ```bash
-   python sim.py
+   python networkSimulation.py
    ```
 
 4. Customize the simulation parameters by modifying the configuration files as needed.
