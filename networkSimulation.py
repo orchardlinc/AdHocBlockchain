@@ -17,7 +17,7 @@ fig, ax = plt.subplots(figsize=(6, 6))
 ax.set_xlim(0, network.area_size)
 ax.set_ylim(0, network.area_size)
 sc = ax.scatter(initial_positions[:, 0], initial_positions[:, 1])
-ax.set_title("Random Movement of People in 1 Km x 1 Km Area")
+ax.set_title("Random Movement of Individuals in 1 Km x 1 Km Area")
 ax.set_xlabel("X Position (m)")
 ax.set_ylabel("Y Position (m)")
 
